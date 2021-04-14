@@ -1,0 +1,124 @@
+.main__container {
+    margin: 80px auto 0;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu,
+.info__container {
+    background-color: #ffffff;
+    border: 3px solid #c0c0c0;
+    border-radius: 15px;
+}
+
+.menu {
+    width: 300px;
+    padding: 10px 25px;
+    font-size: 17px;
+}
+
+.admin__btn {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn__container {
+    margin: auto;
+}
+
+.admin__btn div {
+    text-align: center;
+    border: 2px solid #ffc222;
+    border-radius: 10px;
+    width: 250px;
+    padding: 7px 0;
+    margin: 20px auto;
+}
+
+.admin__btn div:hover {
+    background-color: #ffc222;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+.info__container {
+    width: 800px;
+    padding: 30px 20px 0 20px;
+}
+
+.table_row {
+    display: flex;
+    border-bottom: 1px dotted #343434;
+}
+
+.str_title,
+.str_elem {
+    flex: 1;
+    padding: 8px 5px;
+}
+
+.num {
+    flex: 0.5;
+}
+
+.str_title {
+    font-weight: 700;
+}
+
+.ban_status {
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid #ffffff;
+    padding: 2px 5px;
+}
+
+.ban_status:hover {
+    border: 2px solid #ffc222;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+input,
+select {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #c0c0c0;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+input:focus,
+select:focus {
+    border: 2px solid #ffc222;
+    outline: none;
+}
+
+.submit__btn {
+    border: 2px solid #ffc222;
+}
+
+.submit__btn:hover {
+    background-color: #ffc222;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.success,
+.error {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}

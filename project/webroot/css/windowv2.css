@@ -1,0 +1,109 @@
+.main__container {
+    width: 1000px;
+    background-color: #ffffff;
+    border: 3px solid #c0c0c0;
+    border-radius: 15px;
+    margin: 80px auto;
+    color: #343434;
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    border-bottom: 1px dotted #808080;
+    padding: 10px;
+}
+
+.icon__container {
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+}
+
+.info__container {
+    flex: 3;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.info__container h3 {
+    text-align: center;
+}
+
+.btn__container {
+    flex: 1.2;
+    font-size: 20px;
+    line-height: 3;
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border-color: #ffc222;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: #ffc222;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.bottom__btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bottom__btn span {
+    font-size: 20px;
+}
+
+.bottom {
+    margin-right: 10px;
+    width: 150px;
+}
+
+.empty__cart {
+    text-align: center;
+}
+
+.on-main-page {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.on-main-page a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.message {
+    z-index: 150;
+    position: absolute;
+    background-color: #ffffff;
+    width: 400px;
+    top: 30%;
+    left: 38%;
+    border: 3px solid #c0c0c0;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.count__products input {
+    width: 70px;
+    text-align: center;
+    padding: 6px;
+    font-size: 17px;
+    border: 2px solid #c0c0c0;
+    border-radius: 5px;
+}
